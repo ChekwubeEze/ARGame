@@ -1,2 +1,2 @@
 # ARGame
- Argumented Reality Game
+ Augmented Reality Game
