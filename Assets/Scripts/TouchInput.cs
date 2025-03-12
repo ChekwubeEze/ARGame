@@ -30,13 +30,15 @@ public class TouchInput : MonoBehaviour
         // Check if input was completed
         if(context.phase == InputActionPhase.Performed)
         {
-            var touchPos = context.ReadValue<Vector2>();    
-            debugText.text = touchPos.ToString();
+            var touchPos = context.ReadValue<Vector2>();  // Read position  
+            debugText.text = touchPos.ToString(); // Write to debug
 
+            // Perform Raycast
+            // ARRaycastManager.Raycast(Vector2, List<ARRaycastHits>, TrackableType)
             if(arrcm.Raycast(touchPos, hits, trackableType))
             {
 
-
+                // if ray finds a plane, instanciate our sphere prefabs to the position of the first plane. 
                 var ball = Instantiate(ballPrefab, hits[0].pose.position, new Quaternion());
             }
         }
