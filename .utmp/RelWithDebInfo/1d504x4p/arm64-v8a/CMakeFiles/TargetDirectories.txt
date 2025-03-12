@@ -1,0 +1,5 @@
+C:/Users/ezech/ARGame/.utmp/RelWithDebInfo/1d504x4p/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/ezech/ARGame/.utmp/RelWithDebInfo/1d504x4p/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/ezech/ARGame/.utmp/RelWithDebInfo/1d504x4p/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/ezech/ARGame/.utmp/RelWithDebInfo/1d504x4p/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/ezech/ARGame/.utmp/RelWithDebInfo/1d504x4p/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
